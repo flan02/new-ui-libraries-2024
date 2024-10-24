@@ -15,7 +15,7 @@ const page = async ({ params }: Props) => {
         Current component:<span className="font-bold text-amber-300"> {component}</span>
       </h1>
 
-      <article className="grid place-content-center">
+      <article className="px-4">
         <ComponentSelector selector={component} />
       </article>
       <div className="text-center">
